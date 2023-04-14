@@ -49,7 +49,7 @@ int main () {
   		system("cls");
   		printf("Palavra: %s  Linha: %i Coluna: %i \n\n",palavrasorteada,Py,Px);
   		mostra();
-  		printf("\nDite a palavra: ");
+  		printf("\nDigite a palavra: ");
 		gets(palavraDigitada);	
 	} while (strlen(palavraDigitada)==0);
   	strupr(palavraDigitada);
